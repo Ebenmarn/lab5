@@ -28,4 +28,9 @@ public class Table implements Serializable{
 		return (Player)hmTablePlayer.get(p.getPlayerID());
 
 	}
+
+	public HashMap<UUID, Player> getHmTablePlayer() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
